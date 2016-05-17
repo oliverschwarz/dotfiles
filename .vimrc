@@ -1,10 +1,5 @@
-"
-" My .vimrc for the world's best editor
-" Oliver Schwarz <oliver.schwarz@gmail.com>
-"
 set nocompatible
-
-" Tabs and shifts
+set nowrap
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -17,8 +12,8 @@ set ruler
 set number
 
 " Enable syntax highlighting (if possible)
-if has('syntax') && (&t_Co > 2)
-  syntax on
+if has("syntax")
+  syntax enable
 endif
 
 " Disable beeps (enable flashing)
