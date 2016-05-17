@@ -9,6 +9,6 @@ My configuration files for my local dev env.
 * Clone repos into `~/Repositories/`
 * Link files to ~ with `ln -svf`
 
-[1] https://developer.apple.com/downloads
-[2] https://github.com/robbyrussell/oh-my-zsh
-[3] http://brew.sh/
+[1] https://developer.apple.com/downloads  
+[2] https://github.com/robbyrussell/oh-my-zsh  
+[3] http://brew.sh/  
