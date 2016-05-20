@@ -10,3 +10,8 @@ export HISTFILESIZE=10000
 # Increase the maximum number of commands to remember
 # (default is 500)
 export HISTSIZE=10000
+
+# Load aliases
+if [ -f $HOME/.bash_aliases ]; then
+  . $HOME/.bash_aliases
+fi
