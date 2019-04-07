@@ -48,3 +48,6 @@ alias subl='open -a "Sublime Text"'
 
 # Prevent deleting
 alias rm="rm -i"
+
+# Print current week
+alias week="date +%V"
