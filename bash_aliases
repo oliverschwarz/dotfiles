@@ -45,6 +45,7 @@ alias hidedotfiles="defaults write com.apple.finder AppleShowAllFiles -bool fals
 
 # Shorthand Programs
 alias subl='open -a "Sublime Text"'
+alias pixl='open -a "Pixelmator"'
 
 # Prevent deleting
 alias rm="rm -i"
