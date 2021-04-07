@@ -1,1 +1,10 @@
+._*
 .DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+*.diff
+*.err
+*.log
+*.orig
+node_modules
