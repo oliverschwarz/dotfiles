@@ -7,4 +7,6 @@ These are my configuration file for my local development environment. Since I am
 3. [Set up SSH key to handle git](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 4. _Optional:_ Install [homebrew](https://brew.sh/index_de) and [oh-my-zsh](https://ohmyz.sh)
 5. Clone this repository into `~/Repositories/`
-6. Link files to ~ with `ln -svf`
+6. Link files to ~ with `ln -svf ~/Repositories/dotfiles dotfiles`
+7. Source your own `.zshrc` in `~/.zshrc` (look for User Configuration in the file)
+8. Link `~/Repositories/dotfiles/.vimrc' into your $HOME dir
