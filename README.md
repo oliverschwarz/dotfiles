@@ -2,11 +2,10 @@ These are my configuration file for my local development environment. Since I am
 
 ## Quick step-by-step instructions
 
-1. Get and install XCode command line tools from https://developer.apple.com/downloads
+1. [Get and install XCode command line tools](https://developer.apple.com/downloads) 
 2. [Check git installation and configure user](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 3. [Set up SSH key to handle git](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
-4. _Optional:_ Install [homebrew](https://brew.sh/index_de) and [oh-my-zsh](https://ohmyz.sh)
+4. Install [homebrew](https://brew.sh/index_de) and [oh-my-zsh](https://ohmyz.sh)
 5. Clone this repository into `~/Repositories/`
-6. Link files to `$HOME` with `ln -svf ~/Repositories/dotfiles dotfiles`
-7. Source your own `.zshrc` in `~/.zshrc` (look for User Configuration in the file)
-8. Link `~/Repositories/dotfiles/.vimrc` into your `$HOME` dir
+6. Link vim configuration into `$HOME` with `ln -svf ~/Repositories/dotfiles/.vimrc .vimrc`
+7. Add a line to your `.zshrc` and source `dotfiles/.zshrc` in `~/.zshrc` (look for User Configuration in the file)
