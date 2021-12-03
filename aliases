@@ -1,2 +1,2 @@
 # Shorthand applications from command line
-subl='open -a Sublime Text'
+alias subl='open -a "Sublime Text"'
