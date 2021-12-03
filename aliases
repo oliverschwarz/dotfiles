@@ -1,0 +1,2 @@
+# Shorthand applications from command line
+subl='open -a Sublime Text'
