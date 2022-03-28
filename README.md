@@ -1,4 +1,4 @@
-These are my configuration file for my local development environment. Since I am not a coding guy anymore, they have shrinked to a more reasonable size. I have been considering what is the best way to introduce your own configurations into the existing oh-my-zsh setup and still the best way (IMHO) is the usage of my own _dotfiles_ folder. Feel free to copy what you need.
+These are my configuration files for my local development environment. Since I am not a coding guy anymore, they have shrinked to a more reasonable size. I have been considering what is the best way to introduce your own configurations into the existing oh-my-zsh setup and still the best way (IMHO) is the usage of my own _dotfiles_ folder. Feel free to copy what you need.
 
 ## Quick step-by-step instructions
 

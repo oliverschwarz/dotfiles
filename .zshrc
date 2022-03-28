@@ -42,6 +42,9 @@ alias rm="rm -i"
 # Print current calendar week
 alias week="date +%V"
 
+# Start php local server with Kirby CMS support
+alias skirby="php -S localhost:8000 kirby/router.php"
+
 # Update Homebrew itself, upgrade all packages, remove dead symlinks, remove old versions
 # of installed formulas, clean old downloads from cache, remove versions of formulas, which
 # are downloaded, but not installed, check system for potential problems
