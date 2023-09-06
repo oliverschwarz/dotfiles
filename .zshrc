@@ -35,6 +35,7 @@ alias hidedotfiles="defaults write com.apple.finder AppleShowAllFiles -bool fals
 # Shorthand applications from command line
 alias subl='open -a "Sublime Text"'
 alias pixl='open -a "Pixelmator Pro"'
+alias vsc='open -a "Visual Studio Code"'
 
 # Prevent accidently deleting files
 alias rm="rm -i"
@@ -43,9 +44,9 @@ alias rm="rm -i"
 alias week="date +%V"
 
 # Start php local server with Kirby CMS support
-alias skirby="php -S localhost:8000 kirby/router.php"
+alias startkirbyserver="php -S localhost:8000 kirby/router.php"
 
 # Update Homebrew itself, upgrade all packages, remove dead symlinks, remove old versions
 # of installed formulas, clean old downloads from cache, remove versions of formulas, which
 # are downloaded, but not installed, check system for potential problems
-alias brewup='brew update; brew upgrade; brew cask upgrade; brew cleanup; brew doctor'
+alias brewup='brew update; brew upgrade; brew upgrade --cask; brew cleanup; brew doctor'
