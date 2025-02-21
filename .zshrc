@@ -50,3 +50,25 @@ alias kirbyup="php -S localhost:8000 kirby/router.php"
 # of installed formulas, clean old downloads from cache, remove versions of formulas, which
 # are downloaded, but not installed, check system for potential problems
 alias brewup='brew update; brew upgrade; brew upgrade --cask; brew cleanup; brew doctor'
+
+# Compress images using mozcjpeg
+mozcompress() {
+    # Check if mozcjpeg is installed
+    if ! command -v mozcjpeg &> /dev/null; then
+        echo "mozcjpeg could not be found. You can install it using Homebrew with the following command:"
+        echo "brew install mozcjpeg"
+        return 1
+    fi
+
+    # Check if the correct number of arguments is provided
+    if [ "$#" -ne 2 ]; then
+        echo "Usage: mozcompress <source_image> <quality>"
+        return 1
+    fi
+
+    local source_image="$1"
+    local quality="$2"
+    local output_image="${source_image%.*}-c.jpg"
+
+    mozcjpeg -quality "$quality" -report -optimize -outfile "$output_image" "$source_image"
+}
