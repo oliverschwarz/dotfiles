@@ -9,6 +9,9 @@ export HISTFILESIZE=10000
 # Increase the maximum number of commands to remember
 export HISTSIZE=10000
 
+# OMZ
+ZSH_THEME="gentoo"
+
 # Aliases
 
 # getting around
